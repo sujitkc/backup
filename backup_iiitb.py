@@ -3,12 +3,12 @@
 from backup import *
 
 sourceRoot = "/home/sujit"
-destinationRoot = "/media/Expansion Drive/Backup/Sujit/IIITB/"
+destinationRoot = "/media/sujit/Expansion Drive/Backup/Sujit/IIITB/"
 
 backupDirectories = [
 	"/home/sujit/funcoding",
 	"/home/sujit/IIITB",
-	"/home/sujit/My-Downloads",
+	"/home/sujit/Papers",
 	"/home/sujit/Personal",
 	"/home/sujit/Finance",
 	"/home/sujit/My-Movies",
@@ -16,7 +16,10 @@ backupDirectories = [
 	"/home/sujit/mybin",
 	"/home/sujit/texmf",
 	"/home/sujit/application",
-	"/home/sujit/mycourses"
+	"/home/sujit/texmf",
+	"/home/sujit/mycourses",
+	"/home/sujit/My-Downloads",
+	"/home/sujit/research"
 ]
 
 fbackup = backup(sourceRoot, destinationRoot)
